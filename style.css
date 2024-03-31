@@ -42,11 +42,11 @@
   
   ::-webkit-scrollbar-thumb {
     border-radius: 12px;
-    background: linear-gradient(135deg, #f57308, #fff, rgb(11, 242, 7));
+    background: gray;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #1a6ad2, #fff, rgb(245, 5, 53));
+    background: grey;
   }
   
   /*  Simillar  */
@@ -138,12 +138,7 @@
   }
   
   /*  Nav Logo Span Linear-Gradient  */
-  .navbar .logo a span {
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease;
-  }
+ 
   
   .navbar.sticky .logo a span {
     color: #fff;
@@ -212,7 +207,7 @@
   /*  Home  */
   .home {
     display: flex;
-    background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat
+    background: url("https://source.unsplash.com/720x600/?darklaptop") no-repeat
       center;
     height: 100vh;
     color: #fff;
@@ -443,12 +438,12 @@
     list-style: none;
   }
   
+  
   .intern::before,
-  .project::before {
+  .project::before{
     content: "✪ ";
     color: #1e3551;
   }
-  
   .skills .skills-content .right .bars {
     margin-bottom: 15px;
   }
